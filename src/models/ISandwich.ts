@@ -1,3 +1,5 @@
+import { Sandwich } from "./Sandwich";
+
 interface ISandwich {
     // sandwich: Sandwich;
 

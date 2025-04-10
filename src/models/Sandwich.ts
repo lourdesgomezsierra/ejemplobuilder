@@ -1,12 +1,12 @@
 
-class Sandwich {
+export class Sandwich {
     pan: string = "";
     carne: string = ""; 
     queso: string = "";
     salsa: string = "";
     verduras: string = "";
 
-    obtenerDescription(): string {
+    obtenerDescripcion(): string {
         return `
     Sandwich:
     Pan: ${this.pan}
